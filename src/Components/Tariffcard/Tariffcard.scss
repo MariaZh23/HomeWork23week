@@ -1,0 +1,71 @@
+.tariff-cards-container{
+    display: flex;
+    border: 1px solid white;
+    .tariff-card-name{
+        margin: 0;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        font-size: 30px;
+    }
+    .tariff-card-price{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        border: 1px solid white;
+        color: white;
+        font-size: 28px;
+        .price-currency{
+            display: flex;
+        }
+        .price-number{
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .price-period{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .tariff-card-speed, .tariff-card-volume{
+        font-size: 24px;
+    }
+    .tariff-card-volume{
+        background-color: rgb(227, 224, 224);
+        border: 1px solid white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+}
+.tariff-card-name.darkblue {
+    background-color: rgb(61, 95, 140);
+}
+.tariff-card-price.darkblue {
+    background-color: rgb(91, 143, 248);
+}
+.tariff-card-name.darkgreen {
+    background-color: rgb(78, 178, 136);
+}
+.tariff-card-price.darkgreen{
+    background-color: rgb(129, 205, 175);
+}
+.tariff-card-name.darkred{
+    background-color: rgb(221, 77, 77);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tariff-card-price.darkred {
+    background-color: rgb(229, 134, 134);
+}
+.tariff-card-name.black {
+    background-color: rgb(75, 73, 73);
+}
+.tariff-card-price.black{
+    background-color: rgb(119, 119, 119);
+}
+.tariff-card.true {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgb(180, 180, 180);
+}
