@@ -1,4 +1,5 @@
 import Tariffcard from '../Tariffcard/Tariffcard'
+import Counter from '../Counter/Counter';
 import '../App/App.scss'
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           color={tariff.color}
         />
       ))}
+    </div>
+    <div>
+    <Counter />
     </div>
     </>
   )
